@@ -1,0 +1,72 @@
+label{
+    float: center;
+}
+.email{
+    padding-bottom: 3%;
+   
+    
+    
+}
+.login{
+    background-color: cadetblue;
+    width:45%;
+    height:20%;
+    margin: 30%;
+    font-size: 250%;
+    
+}
+
+.password{
+    font-size: 250%;
+     
+}
+
+button{
+    
+   background-color: antiquewhite;
+    color: black;
+    font-size:10pt;
+    
+    
+}
+
+
+form{
+   background-color: cadetblue;
+    width:60%;
+    height:20%;
+    margin: 30%;
+    font-size: 200%;
+}
+
+
+
+table{
+    width:4%;
+    height:3%;
+}
+
+.text{
+    width:110pt;
+    height:20pt;
+    
+   
+    
+}
+
+.title{
+    width:110pt;
+    height:20pt;
+   
+}
+
+
+
+legend{
+    float: center;
+}
+
+section{
+    width:110pt;
+    height:20pt;
+}

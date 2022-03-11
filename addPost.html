@@ -1,0 +1,56 @@
+<!--addPost.html - asks the user to post a blog entry-->
+<!DOCTYPE->
+
+<html>
+    <head lang="eng">
+    <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="blog.css"/>
+    </head>
+    <body>
+        <form action="addPost.php" method="post">
+            <table>
+                
+                    <label>Add blog</label>
+                
+                <td>
+                    <p>
+                     <input class="title" type="text" name="title">
+                    </p>
+                </td>
+                
+                <td>
+                    
+                    <p>
+                       
+                        <input class="text" type="text" name="text">
+                        
+                    </p>
+                  </td>
+                    
+                    <section> 
+                    <td>
+                        
+                        <p>
+                          <button type="submit" name="post">Post</button>
+                        </p>
+                
+                    </td>
+                
+                
+                    <td>
+                     
+                        <p>
+                        <button type="reset" onclick="if (!confirm('Are you sure you want to clear the form?')) { return false }">clear</button>
+                        
+                       
+                        </p>
+                       
+                    </td>
+                 </section>
+              
+            </table>
+        
+        </form>
+    
+    </body>
+</html>
